@@ -55,7 +55,6 @@ function stream_notification_callback($b, $o, $i,$ik, $bs, $abs) {
     case STREAM_NOTIFY_COMPLETED:
     case STREAM_NOTIFY_FAILURE:
     case STREAM_NOTIFY_AUTH_RESULT:
-        /* yoksay */
         break;
 
     case STREAM_NOTIFY_REDIRECTED:
